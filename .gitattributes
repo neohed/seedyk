@@ -1,0 +1,18 @@
+# Set the default behavior, in case users don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files that should always use LF line endings.
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
